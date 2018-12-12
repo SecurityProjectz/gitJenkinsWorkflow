@@ -8,7 +8,7 @@ pipeline {
     }
     stage('git') {
       steps {
-        git(url: 'https://github.com/SecurityProjectz/gitJenkinsWorkflow.git', branch: 'develop', changelog: true, poll: true)
+        git(url: 'https://github.com/SecurityProjectz/gitJenkinsWorkflow.git', branch: 'develop', changelog: true)
       }
     }
   }
