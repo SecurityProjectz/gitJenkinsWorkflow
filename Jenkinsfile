@@ -6,7 +6,7 @@ pipeline {
         echo 'initializing'
       }
     }
-    stage('') {
+    stage('git') {
       steps {
         git(url: 'https://github.com/SecurityProjectz/gitJenkinsWorkflow.git', branch: 'develop', changelog: true, poll: true)
       }
