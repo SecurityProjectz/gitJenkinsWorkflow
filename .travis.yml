@@ -4,4 +4,4 @@ python:
 script: pytest
 branches:
   only:
-  - feature/auth
+  - develop
